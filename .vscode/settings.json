@@ -1,0 +1,88 @@
+{
+  "editor.tabSize": 2,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.sortImports": "explicit",
+    "source.removeUnusedImports": "explicit"
+  },
+  "search.exclude": {
+    ".git": true,
+    ".eslintcache": true,
+    ".erb/dll": true,
+    "release/{build,app/dist}": true,
+    "node_modules": true,
+    "npm-debug.log.*": true,
+    "test/**/__snapshots__": true,
+    "package-lock.json": true,
+    "*.{css,sass,scss,less}.d.ts": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "eslint.lintTask.enable": false,
+  "[stylus]": {
+    "editor.formatOnSave": true
+  },
+  "[sass]": {
+    "editor.formatOnSave": true
+  },
+  "[less]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+
+  "stylusSupremacy.insertColons": false,
+  "stylusSupremacy.insertSemicolons": false,
+  "stylusSupremacy.insertBraces": false,
+  "stylusSupremacy.insertNewLineAroundImports": true,
+  "stylusSupremacy.insertNewLineAroundBlocks": true,
+  "stylusSupremacy.insertNewLineAroundProperties": false,
+  "stylusSupremacy.insertNewLineAroundOthers": false,
+  "stylusSupremacy.insertNewLineBetweenSelectors": true,
+  "stylusSupremacy.insertSpaceBeforeComment": true,
+  "stylusSupremacy.insertSpaceAfterComment": true,
+  "stylusSupremacy.insertSpaceAfterComma": true,
+  "stylusSupremacy.insertSpaceInsideParenthesis": false,
+  "stylusSupremacy.insertParenthesisAfterNegation": false,
+  "stylusSupremacy.insertParenthesisAroundIfCondition": true,
+  "stylusSupremacy.insertNewLineBeforeElse": false,
+  "stylusSupremacy.insertLeadingZeroBeforeFraction": true,
+  "stylusSupremacy.quoteChar": "'",
+  "stylusSupremacy.sortProperties": false,
+  "stylusSupremacy.alwaysUseImport": false,
+  "stylusSupremacy.alwaysUseNot": false,
+  "stylusSupremacy.alwaysUseAtBlock": false,
+  "stylusSupremacy.alwaysUseExtends": false,
+  "stylusSupremacy.alwaysUseNoneOverZero": false,
+  "stylusSupremacy.alwaysUseZeroWithoutUnit": true,
+  "stylusSupremacy.reduceMarginAndPaddingValues": false,
+  "files.exclude": {
+    "node_modules/_*": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  }
+}

@@ -1,0 +1,35 @@
+/* css */
+/**
+ * @title 【qsbdc】 样式修改
+ */
+body > div:not(.top8) {
+  display: none;
+}
+
+body .top8 {
+  width: auto;
+}
+
+body .top8 .f_l {
+  display: none;
+}
+
+body .top8 .f_r > div {
+  display: none;
+}
+
+body .top8 .f_r > table {
+  border: none;
+}
+
+body .top8 .f_r > table .evenRow {
+  background-color: white;
+}
+
+body .top8 .f_r > table tr td {
+  border: none;
+}
+
+body .top8 .f_r > table tr td:nth-last-of-type(-n+2) {
+  display: none;
+}
